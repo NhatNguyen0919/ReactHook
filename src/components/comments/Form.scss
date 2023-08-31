@@ -1,0 +1,44 @@
+.wrapper {
+    width: 650px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border: 1px solid;
+    flex-direction: column;
+    font-size: 16px;
+    border-radius: 5px;
+
+    .name-infor {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+
+    }
+
+    .price-infor {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+
+    }
+
+    .size-infor {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+
+    }
+
+    .color-infor {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    button{
+        outline: none;
+        border: none;
+    }
+}
